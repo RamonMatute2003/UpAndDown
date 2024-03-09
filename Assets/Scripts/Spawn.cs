@@ -15,7 +15,6 @@ public class Spawn : MonoBehaviour{
 
     private void Start() {
         InvokeRepeating(nameof(spawn),0.5f,time_spawn);
-        print("a");
     }
 
     private void Update(){
