@@ -7,5 +7,6 @@ public class Move : MonoBehaviour{
 
     void Update(){
         transform.Translate(Vector3.left*time*Time.deltaTime);
+        print("Git");
     }
 }
