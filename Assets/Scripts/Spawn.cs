@@ -11,6 +11,7 @@ public class Spawn : MonoBehaviour{
     
     private void Awake(){
         obstacles=new List<GameObject>();
+        print("a");
     }
 
     private void Start() {
