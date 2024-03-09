@@ -8,6 +8,7 @@ public class Player_controller : MonoBehaviour{
 
     void Update(){
         movement();
+        print("a");
     }
 
     private void movement(){
